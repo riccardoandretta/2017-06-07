@@ -78,7 +78,7 @@ public class Model {
 			int somma = 0;
 			for (PuntiSquadra p2 : classifica) {
 				if (p.getTeam().equals(p2.getTeam())) {
-					somma += p.getPunteggio();
+					somma += p2.getPunteggio();
 				}
 			}
 			if(result != null && !result.contains(p))
